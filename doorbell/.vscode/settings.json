@@ -1,0 +1,21 @@
+{
+    // Auto-sync files to the server the moment you press Save
+    "sync-rsync.onSave": true,
+    // Your remote server destination (e.g., "username@your-remote-server.com:path")
+    "sync-rsync.remote": "pr0phet@doorbell-pr0phet.local:doorbell",
+    // Optional rsync flags (e.g., "rlptzv")
+    "sync-rsync.flags": "rlptzv",
+    // Be less verbose
+    "sync-rsync.showProgress": false,
+    // Prevent local deletions from deleting remote files
+    "sync-rsync.delete": false,
+    // Vital: Do not sync heavy local dependencies or git histories back and forth
+    "sync-rsync.exclude": [
+        ".git",
+        ".gitignore",
+        ".vscode",
+        "node_modules",
+        "__pycache__",
+        ".DS_Store"
+    ]
+}

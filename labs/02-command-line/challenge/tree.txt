@@ -1,0 +1,17 @@
+
+├── .admin
+│   └── runme.sh
+├── mov
+│   ├── congratulations.txt
+│   └── .whats_this
+│       ├── banana
+│       │   └── Mango.txt
+│       └── sneaky.txt
+├── README.txt
+├── runme.sh
+├── scripts
+│   ├── .environs
+│   │   ├── instructions.txt
+│   │   └── script.sh
+│   └── runme.sh
+└── solution.txt
